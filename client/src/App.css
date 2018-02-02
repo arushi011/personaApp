@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");*/
+
+body{
+}
+.container{
+}
+.profile-card{
+  float:left;
+  display: inline;
+  margin:10px 0 0 10px;
+  padding:10px;
+  width:250px;
+  background-color: #F16762;
+  overflow: hidden;
+  border-radius:10px;
+  border:2px solid #D65953;
+  font-family:'Dosis', sans-serif;
+  font-weight: bold;
+  color: #284162;
+}
+.upperhalf{
+  h3{
+    color: #284162;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin:0;
+  }
+  padding:10px;
+  border-radius:5px;
+  background-color: #FEFEFE;
+  margin-top:5px;
+  font-size: 12px;
+  color: #607D8B;
+}
+.lowerhalf{
+  margin-top:10px;
+  padding:10px;
+  background-color:#FEFEFE;
+  border-radius:5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.image{
+  border-radius:50%;
+  height:80px;
+  width:80px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left:50%;
+  overflow:hidden;
+  background-color: #284162;
+  transform: translateX(-50%);
+}
+ img{
+  height:80px;
+  width:80px;
+  object-fit: cover;
+}
+.genderIcon{
+  padding:5px;
+  font-weight: 900;
+  margin: 5px 5px 5px 0;
+  color: #D65953;
+  border-radius: 50%;
+  background-color: #FCC953;
+  line-height:10px;
+}
+.headers{
+  background-color:#54D9D6;
+  padding:3px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}

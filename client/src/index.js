@@ -1,0 +1,10 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
+import ProfileList from './profiles.js';
+import profiles from './profiles-data.js';
+import registerServiceWorker from './registerServiceWorker';
+ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<ProfileList profiles={profiles} />, document.getElementById('app'));
+registerServiceWorker();
